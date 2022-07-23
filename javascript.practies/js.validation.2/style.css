@@ -1,0 +1,46 @@
+.main{
+    width:100%;
+    height:auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width:100%;
+    height:auto;
+    background-color: rgb(79, 110, 248);
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin:20px;
+    border:1px solid black;
+}
+.menu input{
+    width:60%;
+    height:auto;
+    padding:10px;
+    margin:10px;
+}
+.holder{
+ width:80px;
+ height:auto;
+ text-align: center;
+ padding:10px;
+ border:1px solid black;
+ background-color: greenyellow;
+}
+.error{
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+    cursor: pointer;
+}
+.holder2{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    cursor: pointer;
+
+
+}

@@ -1,0 +1,58 @@
+.main{
+    width:100%;
+    height:auto;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width:60%;
+    height:auto;
+    /* border:1px solid black; */
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin:20px;
+}
+.menu input{
+    padding:10px;
+    margin:10px;
+    width:60%;
+}
+.btn{
+    width: auto;
+    height:auto;
+    /* border:1px solid black; */
+    padding:10px;
+    margin:20px;
+}
+.btn span{
+    width:auto;
+    height:auto;
+    padding:10px;
+    margin:20px;
+    /* border:1px solid black; */
+    background-color: blue;
+}
+.holder1{
+    font-size: 20px;
+    color:red;
+    font-weight: bold;
+    margin: 20px;
+}
+.holder{
+    /* padding:10px; */
+    margin:10px;
+}
+.holder2{
+    /* padding:10px; */
+    margin:10px;
+}
+.holder3{
+    /* padding:10px; */
+    margin:10px;
+}

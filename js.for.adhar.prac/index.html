@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>js.adhar.onload</title>
+        <script src="test.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+    </head>
+  <body onload="adharform()">
+      <div class="container">
+          <div class="main" id="vacdate" >
+
+              <div class="menu" >
+                  <span>adhar number</span>
+                  <input type="number" id="adharno"></input>
+              </div>
+
+              <div class="menu">
+                <span>date</span>
+                <input type="date" id="date"></input>
+            </div>
+
+            <button onclick="addtoList()">submit</button>
+            
+          </div>
+          <div id="vaccine" class="totalList">
+
+          </div>
+      </div>
+  </body>
+</html>

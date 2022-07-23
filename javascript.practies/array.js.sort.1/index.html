@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>array sort js practies</h1>
+        <p id = "demo"></p>
+        <p id = "demo1"></p>
+        <p id = "demo2"></p>
+        <p id = "demo3"></p>
+        <script>
+            let x = [24 ,4 ,54 ,50 ,1 ,100] ;
+            let y = ["banana" ,"orange" ,"grapes","lemone" ,"kiwi" ,"sapota"] ;
+            let z = [24 ,4 ,54 ,50 ,1 ,100] ;
+            let a = ["banana" ,"orange" ,"grapes","lemone" ,"kiwi" ,"sapota"] ;
+
+
+
+            x.sort(function(a,b){return a-b});
+            document.getElementById("demo").innerHTML = x;
+
+            y.sort();
+            document.getElementById("demo1").innerHTML = y;
+
+            z.sort(function(a,b){return b-a});
+            document.getElementById("demo2").innerHTML = z;
+             
+            a.reverse();
+            document.getElementById("demo3").innerHTML = a;
+
+
+
+            
+
+
+        </script>
+    </body>
+</html>

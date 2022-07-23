@@ -1,0 +1,78 @@
+body{
+    font-family:  'Open Sans',  sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#container{
+    width:1200px;
+    height:700px;
+    background-color:lightblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+#main{
+ width:500px;
+ height:650px;
+ background-color:white;
+}
+#calculator{
+    width:500px;
+    height:150px;
+    /* border:1px solid black; */
+
+}
+#keyboard{
+    width:500px;
+    height:500px;
+    /* border:1px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    
+
+}
+.operator,.number{
+    width:80px;
+    height:80px;
+    margin:5px 20px 5px 20px;
+    float:left;
+    border-radius: 50%;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+}
+.number{
+    background-color: white;
+}
+#history{
+    width:500px;
+    height:60px;
+    text-align: right;
+}
+#output{
+    width:500px;
+    height:90px;
+    text-align: right;
+    font-size: 32px;
+}
+.operator:nth-child(4){
+ background-color: lightgreen;
+}
+.operator:nth-child(8){
+    background-color: rgb(161, 37, 124);
+   }
+   .operator:nth-child(12){
+    background-color: tomato;
+   }
+   .operator:nth-child(16){
+    background-color: rgb(38, 96, 184);
+   }
+   .operator:nth-child(20){
+    background-color: rgb(159, 161, 26);
+   }
+   .operator:nth-child(3){
+    background-color: rgb(206, 106, 48);
+   }

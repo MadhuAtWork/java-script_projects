@@ -1,0 +1,31 @@
+.main{
+    width:100%;
+    height:auto;
+    background-color: antiquewhite;
+    display: flex;
+}
+.menu{
+    width:70%;
+    height:auto;
+    border:1px solid black;
+    background-color: lightblue;
+}
+.nav{
+    width:30%;
+    height:auto;
+    border:1px solid black;
+    background-color: lightgreen;
+}
+.img{
+    width:80%;
+    height:200px;
+    border:1px solid black;
+    margin:10px;
+    cursor: pointer;
+
+    
+}
+.img img{
+    width:100%;
+    height:200px;
+}

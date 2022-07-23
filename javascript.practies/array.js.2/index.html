@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>array js practies</h1>
+        <p id = "demo"></p>
+        <p id = "demo1"></p>
+        <p id = "demo2"></p>
+        <script>
+
+            let x = ["apple" , "kiwi"] ;
+            let y = ["lemon" , "grapes" ] ;
+            let z = ["sapota" , "oranges"] ;
+            let a = x.concat(y ,z);
+
+
+            let b = ["apple" ,"kiwi" , "oranges" , "lemon"] ;
+             b.splice( 2 , 0 , "sapota" ,"grapes") ;
+
+                             //0     //1        //2     //3
+             let fruits = ["apple" ,"oranges" ,"kiwi" ,"lemon"];
+             let c = fruits.slice(1);
+
+            document.getElementById("demo").innerHTML = "merging items:<br>"+a;
+            document.getElementById("demo1").innerHTML = "splice items:<br>"+b;
+            document.getElementById("demo2").innerHTML = "slice items:<br>"+c;
+
+        </script>
+    </body>
+</html>
